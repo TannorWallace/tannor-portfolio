@@ -1,6 +1,6 @@
 // components/Hero.tsx
 'use client';
-
+import { FaDownload } from "react-icons/fa6";
 import { useState } from 'react';
 
 export default function Hero() {
@@ -16,7 +16,7 @@ export default function Hero() {
           </div>
           
           <h1 className="text-3xl md:text-5xl font-bold leading-none tracking-tighter">
-            Hello, I'm<br />Tannor Wallace
+            Howdy, I'm<br />Tannor Wallace
           </h1>
           
           <p className="text-2xl text-emerald-300 font-light">
@@ -25,26 +25,28 @@ export default function Hero() {
           </p>
           
           <p className="max-w-md text-xl text-zinc-400 leading-relaxed">
-            I build reliable systems, write clean code, and love turning complex problems into simple solutions.
+            I am able to build reliable systems, write clean code, and I love turning complex problems into simple solutions.
           </p>
           
           <div className="flex items-center gap-x-4 pt-4">
-            <button 
-              onClick={() => document.getElementById('experience')?.scrollIntoView({ behavior: 'smooth' })}
-              className="bg-emerald-500 hover:bg-emerald-600 text-black font-semibold text-lg px-8 py-4 rounded-3xl flex items-center gap-x-3 transition-colors"
-            >
+            {/* Experience Button */}
+            <a 
+              href="/experience"
+              className="bg-emerald-500 hover:bg-emerald-600 text-black font-semibold text-lg px-8 py-4 rounded-3xl flex items-center gap-x-3 transition-colors">
               See My Experience
-            </button>
-            <button 
-              onClick={() => window.open('/resume.pdf', '_blank')}
-              className="border border-white/40 hover:border-white text-white font-medium text-lg px-8 py-4 rounded-3xl transition-colors"
-            >
-              Download Resume →
-            </button>
+            </a>
+
+            {/* Resume Download Button - FIXED */}
+            <a 
+              href="resources/Tannor_Wallace_Res_050626.pdf" 
+              download="Tannor_Wallace_Resume.pdf"
+              className="border border-white/40 hover:border-white text-white font-medium text-lg px-8 py-4 rounded-3xl transition-colors hover:text-emerald-400 flex items-center gap-x-3">
+              See My Resume <FaDownload />
+            </a>
           </div>
         </div>
         
-        {/* Right side - visual */}
+        {/* Ugh need a picture of me that i guess people might find not disgusting */}
         <div className="hidden md:flex justify-center">
           <div className="w-80 h-80 bg-gradient-to-br from-emerald-500/10 to-transparent rounded-3xl flex items-center justify-center border border-emerald-500/20 shadow-2xl">
             <div className="text-[140px] leading-none">💻</div> {/* Image of me here later */}

@@ -12,38 +12,38 @@ export default function About() {
             </div>
             
             <h2 className="text-5xl md:text-6xl font-bold tracking-tighter text-white">
-              Hey, I&apos;m Tannor.
+              Hello, I'm Tannor.
             </h2>
             
             <div className="prose prose-invert max-w-none text-lg text-zinc-400 leading-relaxed space-y-6">
               <p>
                 I live in Caldwell, Idaho with my wife <span className="text-emerald-300">Mykala</span>, 
-                our son <span className="text-emerald-300">Bridger</span>, two dogs (Harvey Dent &amp; Roman), 
+                our son <span className="text-emerald-300">Bridger</span>, two dogs (Harvey Dent & Roman), 
                 and three cats (Joey, Merri, and Tina).
               </p>
               
               <p>
-                I&apos;m a proud <span className="text-emerald-300">"hobby hoarder"</span>. Once something catches my interest, 
-                I tend to jump straight into the deep end. Whether it&apos;s building, creating, or exploring the outdoors — 
+                I'm a proud <span className="text-emerald-300">"hobby hoarder"</span>. Once something catches my interest, 
+                I tend to jump straight into the deep end. Whether it's building, creating, or exploring the outdoors — 
                 I love learning and making things with my hands.
               </p>
 
               <div className="pt-6">
                 <p className="text-emerald-400 font-medium mb-4">A few things that consume most of my thoughts these days:</p>
                 <ul className="grid grid-cols-1 sm:grid-cols-2 gap-y-3 text-zinc-400">
-                  <li className="flex items-start gap-x-3"><span className="text-emerald-500">→</span> Warhammer 40,000 (been hooked since 2006)</li>
-                  <li className="flex items-start gap-x-3"><span className="text-emerald-500">→</span> Woodturning on my lathe</li>
-                  <li className="flex items-start gap-x-3"><span className="text-emerald-500">→</span> 3D printing &amp; problem-solving</li>
-                  <li className="flex items-start gap-x-3"><span className="text-emerald-500">→</span> Yard work &amp; helping the bees</li>
-                  <li className="flex items-start gap-x-3"><span className="text-emerald-500">→</span> Riding my bike with no destination</li>
-                  <li className="flex items-start gap-x-3"><span className="text-emerald-500">→</span> Cooking (my love language, according to Mykala)</li>
+                  <li className="flex items-start gap-x-3"><span className="text-emerald-500">•</span> Warhammer 40,000 (been hooked since 2006)</li>
+                  <li className="flex items-start gap-x-3"><span className="text-emerald-500">•</span> Woodturning on my lathe</li>
+                  <li className="flex items-start gap-x-3"><span className="text-emerald-500">•</span> 3D printing & problem-solving</li>
+                  <li className="flex items-start gap-x-3"><span className="text-emerald-500">•</span> Yard work & helping the bees</li>
+                  <li className="flex items-start gap-x-3"><span className="text-emerald-500">•</span> Riding my bike with no destination</li>
+                  <li className="flex items-start gap-x-3"><span className="text-emerald-500">•</span> Cooking (my love language, according to Mykala)</li>
                 </ul>
               </div>
             </div>
 
             <p className="text-zinc-400 text-lg">
               Favorite color: <span className="text-emerald-300">Black</span> (with green a very close second). 
-              I&apos;m friendly, a bit silly, blunt when needed, and always up for a good conversation.
+              I'm friendly, a bit weird, enthusiastic, curious, and always up for a good conversation and laugh.
             </p>
           </div>
 
