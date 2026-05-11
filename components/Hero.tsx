@@ -16,7 +16,7 @@ export default function Hero() {
           </div>
           
           <h1 className="text-3xl md:text-5xl font-bold leading-none tracking-tighter">
-            Howdy, I'm<br />Tannor Wallace
+            Howdy, I'm<br />Tannor Wallace!
           </h1>
           
           <p className="text-2xl text-emerald-300 font-light">
@@ -36,9 +36,9 @@ export default function Hero() {
               See My Experience
             </a>
 
-            {/* Resume Download Button - FIXED */}
+            {/* DOWN LOAD WORKS! Need to update the nails AI page.*/}
             <a 
-              href="resources/Tannor_Wallace_Res_050626.pdf" 
+              href="resources/Tannor_Wallace_Resume.pdf" 
               download="Tannor_Wallace_Resume.pdf"
               className="border border-white/40 hover:border-white text-white font-medium text-lg px-8 py-4 rounded-3xl transition-colors hover:text-emerald-400 flex items-center gap-x-3">
               See My Resume <FaDownload />

@@ -1,10 +1,13 @@
 // components/Footer.tsx
 'use client';
 
+import { useState } from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa6";
 import { MdOutlineEmail } from "react-icons/md";
+import ContactModal from "./ContactModal";
 
 export default function Footer() {
+  const [modalOpen, setModalOpen] = useState(false);
   return (
     <footer className="bg-zinc-950 border-t border-white/10 py-12 mt-auto">
       <div className="max-w-7xl mx-auto px-6">
@@ -45,13 +48,13 @@ export default function Footer() {
               <FaLinkedin />
             </a>
 
-            <a
-              href="mailto:tannor.wallace@gmail.com"
-              className="text-zinc-400 hover:text-emerald-400 transition-colors p-3 hover:bg-white/5 rounded-2xl text-3xl"
-              aria-label="Email"
-            >
-              <MdOutlineEmail />
-            </a>
+          <button
+                onClick={() => setModalOpen(true)}
+                className="text-zinc-400 hover:text-emerald-400 transition-colors p-3 hover:bg-white/5 rounded-2xl text-3xl"
+                aria-label="Email"
+              >
+                <MdOutlineEmail />
+              </button>
         </div>
 
             <div>
@@ -62,6 +65,7 @@ export default function Footer() {
           </div>
         </div>
       {/* </div> */}
+      <ContactModal isOpen={modalOpen} onClose={() => setModalOpen(false)} />
     </footer>
   );
 }

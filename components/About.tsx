@@ -36,18 +36,18 @@ export default function About() {
                   <li className="flex items-start gap-x-3"><span className="text-emerald-500">•</span> 3D printing & problem-solving</li>
                   <li className="flex items-start gap-x-3"><span className="text-emerald-500">•</span> Yard work & helping the bees</li>
                   <li className="flex items-start gap-x-3"><span className="text-emerald-500">•</span> Riding my bike with no destination</li>
-                  <li className="flex items-start gap-x-3"><span className="text-emerald-500">•</span> Cooking (my love language, according to Mykala)</li>
+                  <li className="flex items-start gap-x-3"><span className="text-emerald-500">•</span> Cooking (my love language, according to my wife.)</li>
                 </ul>
               </div>
             </div>
 
             <p className="text-zinc-400 text-lg">
               Favorite color: <span className="text-emerald-300">Black</span> (with green a very close second). 
-              I'm friendly, a bit weird, enthusiastic, curious, and always up for a good conversation and laugh.
+              I'm friendly, enthusiastic, curious, a bit weird, happy to offer a helping hand, and always up for a good conversation and laugh.
             </p>
           </div>
 
-          {/* Right - Visual */}
+          {/* ew and image of me */}
           <div className="md:col-span-5">
             <div className="aspect-square bg-gradient-to-br from-emerald-500/10 to-transparent rounded-3xl border border-emerald-500/20 flex items-center justify-center overflow-hidden">
               <div className="text-[160px] opacity-10">🏠</div>
