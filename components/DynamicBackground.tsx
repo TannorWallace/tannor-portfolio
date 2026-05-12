@@ -26,7 +26,7 @@ export default function DynamicBackground() {
   };
 
   return (
-    <>
+    <> 
       {/* Background Image */}
       <div
         key={pathname}
