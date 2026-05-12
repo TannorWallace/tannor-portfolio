@@ -36,7 +36,9 @@ export default function DynamicBackground() {
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
-          backgroundAttachment: 'fixed',
+          // Removed background-attachment: fixed (this was causing jitter)
+          transform: 'translate3d(0, 0, 0)',           // Hardware acceleration
+          willChange: 'transform',                     // Tells browser to optimize
         }}
       />
 
