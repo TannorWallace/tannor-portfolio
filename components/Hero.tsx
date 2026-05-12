@@ -3,7 +3,19 @@
 import { FaDownload } from "react-icons/fa6";
 import { useState } from 'react';
 
+// Mobile download function to see if it works, but it does not work on mobile. I need to google this and figure out how to make it work on mobile. I think it might be a security issue with mobile browsers, but I'm not sure.
 export default function Hero() {
+const handleDownloadResume = () => {
+    const link = document.createElement('a');
+    link.href = '/resources/Tannor_Wallace_Resume.pdf';
+    link.download = 'Tannor_Wallace_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
+
+
   return (
     <main className="min-h-screen flex items-center text-white">
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
@@ -42,12 +54,11 @@ export default function Hero() {
             {/* DOWN LOAD WORKS! Need to update the nails AI page.*/}
             {/* Download doesnt work on mobile...need to google this*/}
 
-            <a 
-              href="resources/Tannor_Wallace_Resume.pdf" 
-              download="Tannor_Wallace_Resume.pdf"
+            <button 
+              onClick={handleDownloadResume}
               className="border border-white/40 hover:border-white text-white font-medium text-lg px-8 py-4 rounded-3xl transition-colors hover:text-emerald-400 flex items-center gap-x-3">
               See My Resume <FaDownload />
-            </a>
+            </button>
           </div>
         </div>
         
