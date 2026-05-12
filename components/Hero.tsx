@@ -40,6 +40,8 @@ export default function Hero() {
             </a>
 
             {/* DOWN LOAD WORKS! Need to update the nails AI page.*/}
+            {/* Download doesnt work on mobile...need to google this*/}
+
             <a 
               href="resources/Tannor_Wallace_Resume.pdf" 
               download="Tannor_Wallace_Resume.pdf"
