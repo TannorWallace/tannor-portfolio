@@ -10,7 +10,7 @@ export default function Hero() {
         
         {/* Left side - text content */}
         <div className="space-y-4">
-          {/* Location badge - now clickable Google Maps link */}
+  
           <a 
             href="https://www.google.com/maps/place/Caldwell,+ID" 
             target="_blank"
