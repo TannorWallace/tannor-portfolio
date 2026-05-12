@@ -56,10 +56,10 @@ pids
 next-env.d.ts
 
 # Personal / sensitive files
-Tannor_Wallace_Resume.pdf
-Tannor_Wallace_Res_*.pdf
-*.pdf
-public/resources/*.pdf
+# Tannor_Wallace_Resume.pdf
+# Tannor_Wallace_Res_*.pdf
+# *.pdf
+# public/resources/*.pdf
 
 # Temporary / cache
 .tmp
