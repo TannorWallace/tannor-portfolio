@@ -24,7 +24,6 @@ export default function Hero() {
           </h1>
           
           <p className="text-2xl text-emerald-300 font-light">
-          
             Full-Stack Developer • Software Engineer
           </p>
           
