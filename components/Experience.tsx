@@ -17,12 +17,12 @@ export default function Experience() {
             <div>
               <div className="flex flex-col md:flex-row md:items-baseline justify-between gap-2 mb-6">
                 <div>
-                  <h2 className="text-2xl font-semibold text-white underline underline-offset-4 decoration-emerald-400">IT Engineer II (Software Developer)</h2>
+                  <h2 className="text-2xl font-semibold text-white underline underline-offset-4 decoration-emerald-400 ">IT Engineer II (Software Developer)</h2>
                   <p className="text-emerald-300">Blue Cross of Idaho • Boise, ID</p>
                 </div>
                 <p className="text-zinc-500 text-sm">July 2022 – January 2026</p>
               </div>
-              <ul className="space-y-4 text-zinc-400">
+              <ul className="space-y-4 text-zinc-400 bg-zinc-900/60 border border-white/10 rounded-3xl p-6 md:p-8 col-span-1 md:col-span-1">
                 <li className="flex gap-x-3"><span className="text-emerald-400">•</span> Led full migration from Tortoise SVN to GitLab, creating Python automation scripts and SOPs that achieved 100% team adoption.
                 </li>
                 <li className="flex gap-x-3"><span className="text-emerald-400">•</span> Designed and implemented Python tools delivering real-time member data to on-call agents, significantly boosting customer satisfaction.
@@ -43,9 +43,9 @@ export default function Experience() {
                   <h2 className="text-2xl font-semibold text-white underline underline-offset-4 decoration-emerald-400">Software Developer I</h2>
                   <p className="text-emerald-300">Ameriben IEC Group • Boise, ID</p>
                 </div>
-                <p className="text-zinc-500 text-sm">2019 – 2022</p>
+                <p className="text-zinc-500 text-sm ">2019 – 2022</p>
               </div>
-              <ul className="space-y-4 text-zinc-400">
+              <ul className="space-y-4 text-zinc-400 bg-zinc-900/60 border border-white/10 rounded-3xl p-6 md:p-8 col-span-1 md:col-span-1">
                 <li className="flex gap-x-3"><span className="text-emerald-400">•</span> Developed and integrated new features into core business applications using Microsoft technologies and Agile/Scrum methodologies.</li>
                 <li className="flex gap-x-3"><span className="text-emerald-400">•</span> Managed source control and team collaboration via Azure DevOps, enforcing version control best practices.</li>
                 <li className="flex gap-x-3"><span className="text-emerald-400">•</span> Performed thorough debugging and testing to prevent production issues and maintain high system reliability.</li>
@@ -61,7 +61,7 @@ export default function Experience() {
                 </div>
                 <p className="text-zinc-500 text-sm">2010 – 2019</p>
               </div>
-              <ul className="space-y-4 text-zinc-400">
+              <ul className="space-y-4 text-zinc-400 bg-zinc-900/60 border border-white/10 rounded-3xl p-6 md:p-8 col-span-1 md:col-span-1">
                 <li className="flex gap-x-3"><span className="text-emerald-400">•</span> Conducted research, development, and ISO 14001 compliance testing while coordinating with local and international engineering teams.</li>
                 <li className="flex gap-x-3"><span className="text-emerald-400">•</span> Performed firmware uploads to hardware components, tested firmware changes and their effects on print hardware.</li>
                 <li className="flex gap-x-3"><span className="text-emerald-400">•</span> Measured results with precision laser tools to achieve 100% accurate data.</li>
