@@ -1,27 +1,27 @@
 // components/Hobbies.tsx
 export default function Hobbies() {
   return (
-    <section className="py-24 bg-zinc-950 min-h-screen">
-      <div className="max-w-7xl mx-auto px-6">
+    <section className="py-16 md:py-24 min-h-screen">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="max-w-4xl mx-auto">
           <div className="inline-flex items-center gap-x-2 text-emerald-400 text-sm font-medium tracking-widest mb-4">
             HOBBIES
           </div>
           
-          <h1 className="text-5xl md:text-6xl font-bold tracking-tighter text-white mb-8">
+          <h1 className="text-4xl md:text-6xl font-bold tracking-tighter text-white mb-6 md:mb-8">
             My Hobby Hoard
           </h1>
           
-          <p className="text-xl text-zinc-400 max-w-2xl mb-16">
+          <p className="text-lg md:text-xl text-zinc-400 max-w-2xl mb-12 md:mb-16">
             From the grimdark battles of my Imperial Fists army in Warhammer 40,000 
             to turning raw wood on the lathe, 3D printing practical fixes, metal casting, 
             and exploring the Idaho outdoors — these are the hobbies that keep my hands busy and my mind inspired.
           </p>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
             
-            {/* Warhammer 40k - Special Card */}
-            <div className="bg-zinc-900/50 border border-white/10 rounded-3xl p-8 col-span-2 md:col-span-1">
+            {/* Warhammer 40k - Special Card (full width on mobile) */}
+            <div className="bg-zinc-900/60 border border-white/10 rounded-3xl p-6 md:p-8 col-span-1 md:col-span-1">
               <div className="text-5xl mb-4">⚔️</div>
               <h3 className="text-3xl font-semibold text-white mb-2">Warhammer 40,000</h3>
               <p className="text-emerald-300 text-sm mb-6">The one that consumes my thoughts all day since 2006</p>
@@ -34,8 +34,8 @@ export default function Hobbies() {
               </div>
             </div>
 
-            {/* Woodturning */}
-            <div className="bg-zinc-900/50 border border-white/10 rounded-3xl p-8">
+            {/* Other hobby cards */}
+            <div className="bg-zinc-900/60 border border-white/10 rounded-3xl p-6 md:p-8">
               <div className="text-5xl mb-4">🪵</div>
               <h3 className="text-2xl font-semibold text-white mb-2">Woodturning</h3>
               <p className="text-zinc-400">
@@ -43,8 +43,7 @@ export default function Hobbies() {
               </p>
             </div>
 
-            {/* 3D Printing */}
-            <div className="bg-zinc-900/50 border border-white/10 rounded-3xl p-8">
+            <div className="bg-zinc-900/60 border border-white/10 rounded-3xl p-6 md:p-8">
               <div className="text-5xl mb-4">🖨️</div>
               <h3 className="text-2xl font-semibold text-white mb-2">3D Printing</h3>
               <p className="text-zinc-400">
@@ -52,17 +51,15 @@ export default function Hobbies() {
               </p>
             </div>
 
-            {/* Yard Work */}
-            <div className="bg-zinc-900/50 border border-white/10 rounded-3xl p-8">
+            <div className="bg-zinc-900/60 border border-white/10 rounded-3xl p-6 md:p-8">
               <div className="text-5xl mb-4">🌼</div>
-              <h3 className="text-2xl font-semibold text-white mb-2">Yard Work & Gardening</h3>
+              <h3 className="text-2xl font-semibold text-white mb-2">Yard Work &amp; Gardening</h3>
               <p className="text-zinc-400">
-                I love making sure my trees thrive and planting flowers for bees and monarch butterflies (Idaho's state insect).
+                I love making sure my trees thrive and planting flowers for bees and monarch butterflies (Idaho&apos;s state insect).
               </p>
             </div>
 
-            {/* Biking */}
-            <div className="bg-zinc-900/50 border border-white/10 rounded-3xl p-8">
+            <div className="bg-zinc-900/60 border border-white/10 rounded-3xl p-6 md:p-8">
               <div className="text-5xl mb-4">🚲</div>
               <h3 className="text-2xl font-semibold text-white mb-2">Riding My Bike</h3>
               <p className="text-zinc-400">
@@ -70,26 +67,23 @@ export default function Hobbies() {
               </p>
             </div>
 
-            {/* Cooking */}
-            <div className="bg-zinc-900/50 border border-white/10 rounded-3xl p-8">
+            <div className="bg-zinc-900/60 border border-white/10 rounded-3xl p-6 md:p-8">
               <div className="text-5xl mb-4">🍳</div>
               <h3 className="text-2xl font-semibold text-white mb-2">Cooking</h3>
               <p className="text-zinc-400">
-                My wife says its my love language. I just have to admit that I like tasty things.
+                My wife says it&apos;s my love language. I just have to admit that I like tasty things.
               </p>
             </div>
 
-            {/* Metal Casting */}
-            <div className="bg-zinc-900/50 border border-white/10 rounded-3xl p-8">
+            <div className="bg-zinc-900/60 border border-white/10 rounded-3xl p-6 md:p-8">
               <div className="text-5xl mb-4">🔨</div>
               <h3 className="text-2xl font-semibold text-white mb-2">Metal Casting</h3>
               <p className="text-zinc-400">
-                I started this as a way to get a treasure chest full of Pirate treasure. But I quickly got hooked on the process of melting metal and pouring it into molds. It's like pretending to be a dwarf from lord of the rings..
+                I started this as a way to get a pirate treasure chest but couldn&apos;t afford gold. Now I melt down old electronics and pour them into molds.
               </p>
             </div>
 
-            {/* Woodland Activities */}
-            <div className="bg-zinc-900/50 border border-white/10 rounded-3xl p-8">
+            <div className="bg-zinc-900/60 border border-white/10 rounded-3xl p-6 md:p-8">
               <div className="text-5xl mb-4">🌲</div>
               <h3 className="text-2xl font-semibold text-white mb-2">Woodland Adventures</h3>
               <p className="text-zinc-400">

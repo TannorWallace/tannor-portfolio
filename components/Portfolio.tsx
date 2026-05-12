@@ -1,7 +1,7 @@
 // components/Portfolio.tsx
 export default function Portfolio() {
   return (
-    <section className="py-24 bg-zinc-950 min-h-screen">
+    <section className="py-24 min-h-screen">
       <div className="max-w-7xl mx-auto px-6">
         <div className="max-w-5xl mx-auto">
           <div className="inline-flex items-center gap-x-2 text-emerald-400 text-sm font-medium tracking-widest mb-4">

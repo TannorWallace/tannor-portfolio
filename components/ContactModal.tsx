@@ -12,6 +12,11 @@ export default function ContactModal({ isOpen, onClose }: { isOpen: boolean; onC
     e.preventDefault();
     if (!form.current) return;
 
+    console.log('=== EMAILJS DEBUG ===');
+    console.log('Service ID:', process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID);
+    console.log('Template ID:', process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID);
+    console.log('Public Key:', process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY);
+
     setStatus('sending');
 
     emailjs
@@ -21,7 +26,8 @@ export default function ContactModal({ isOpen, onClose }: { isOpen: boolean; onC
         form.current,
         process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
       )
-      .then(() => {
+      .then((result) => {
+        console.log('✅ EmailJS Success:', result.text);
         setStatus('success');
         form.current?.reset();
         setTimeout(() => {
@@ -29,7 +35,8 @@ export default function ContactModal({ isOpen, onClose }: { isOpen: boolean; onC
           setStatus('idle');
         }, 2500);
       })
-      .catch(() => {
+      .catch((error) => {
+        console.error('❌ EmailJS Error:', error);
         setStatus('error');
       });
   };

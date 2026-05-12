@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 export default function Hero() {
   return (
-    <main className="min-h-screen flex items-center bg-zinc-950 text-white">
+    <main className="min-h-screen flex items-center text-white">
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
         
         {/* Left side - text content */}
@@ -16,7 +16,7 @@ export default function Hero() {
           </div>
           
           <h1 className="text-3xl md:text-5xl font-bold leading-none tracking-tighter">
-            Howdy, I'm<br />Tannor Wallace!
+            Hello, I'm<br />Tannor Wallace!
           </h1>
           
           <p className="text-2xl text-emerald-300 font-light">

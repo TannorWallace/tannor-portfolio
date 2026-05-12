@@ -1,7 +1,7 @@
 // components/About.tsx
 export default function About() {
   return (
-    <section id="about" className="py-24 bg-zinc-950 border-t border-white/10">
+    <section id="about" className="py-24  border-t border-white/10">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid md:grid-cols-12 gap-16 items-center">
           
