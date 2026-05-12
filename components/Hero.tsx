@@ -10,10 +10,14 @@ export default function Hero() {
         
         {/* Left side - text content */}
         <div className="space-y-4">
-          {/* Location badge */}
-          <div className="inline-flex items-center gap-x-2 bg-white/10 text-emerald-400 text-sm font-medium px-6 py-3 rounded-3xl border border-emerald-500/20">
+          {/* Location badge - now clickable Google Maps link */}
+          <a 
+            href="https://www.google.com/maps/place/Caldwell,+ID" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-x-2 bg-white/10 hover:bg-white/20 text-emerald-400 text-sm font-medium px-6 py-3 rounded-3xl border border-emerald-500/20 transition-colors">
             📍 Caldwell, Idaho
-          </div>
+          </a>
           
           <h1 className="text-3xl md:text-5xl font-bold leading-none tracking-tighter">
             Hello, I'm<br />Tannor Wallace!
