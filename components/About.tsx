@@ -51,7 +51,7 @@ export default function About() {
           <div className="md:col-span-5">
             <div className="aspect-square rounded-3xl border border-emerald-500/20 flex items-center justify-center overflow-hidden">
               <div className=" flex items-center justify-center w-full h-full">
-                <img className="w-full h-full object-cover rounded-3xl" src="/resources/headshot1.webp" alt="Tannor Wallace" />
+                <img className="w-full h-full object-cover rounded-3xl" src="/resources/headshot3.webp" alt="Tannor Wallace" />
               </div>
             </div>
           </div>
