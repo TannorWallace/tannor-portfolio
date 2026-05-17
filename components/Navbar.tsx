@@ -16,14 +16,13 @@ export default function Navbar() {
       <nav className="border-b border-white/10 bg-zinc-950 backdrop-blur-lg sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
           
-          {/* Logo */}
-          <div className="flex items-center gap-x-3">
-            <div className="w-9 h-9 bg-emerald-500 rounded-2xl flex items-center justify-center text-2xl">
-              <a href="/">💻</a>
+          <div className="flex items-center gap-x-2">
+            <div className="w-9 h-9 bg-emerald-500 rounded-2xl flex items-center justify-center text-white font-bold text-1xl tracking-tighter shadow-inner">
+              TW
             </div>
-            <h1 className="text-1xl text-white font-semibold tracking-tighter">
+            <div>
               <a href="/" className="hover:text-emerald-400">Tannor Wallace</a>
-            </h1>
+            </div>
           </div>
 
           {/* Desktop Menu */}
