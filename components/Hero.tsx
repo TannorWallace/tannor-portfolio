@@ -65,7 +65,7 @@ const handleDownloadResume = () => {
         {/* Ugh need a picture of me that i guess people might find not disgusting */}
         <div className="hidden md:flex justify-center">
           <div className="w-80 h-80 bg-gradient-to-br from-emerald-500/10 to-transparent rounded-3xl flex items-center justify-center border border-emerald-500/20 shadow-2xl">
-            <div className="text-[140px] leading-none">💻</div> {/* Image of me here later */}
+            <div className="text-[140px] leading-none "><img className="w-90 h-100 rounded-3xl" src="/resources/headshot3.webp" alt="Tannor Wallace" /></div> {/* Image of me here later */}
           </div>
         </div>
       </div>

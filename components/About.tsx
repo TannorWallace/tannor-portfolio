@@ -49,8 +49,10 @@ export default function About() {
 
           {/* ew and image of me */}
           <div className="md:col-span-5">
-            <div className="aspect-square bg-gradient-to-br from-emerald-500/10 to-transparent rounded-3xl border border-emerald-500/20 flex items-center justify-center overflow-hidden">
-              <div className="text-[160px] opacity-10">🏠</div>
+            <div className="aspect-square rounded-3xl border border-emerald-500/20 flex items-center justify-center overflow-hidden">
+              <div className=" flex items-center justify-center w-full h-full">
+                <img className="w-full h-full object-cover rounded-3xl" src="/resources/headshot1.webp" alt="Tannor Wallace" />
+              </div>
             </div>
           </div>
         </div>
